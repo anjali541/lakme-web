@@ -1,0 +1,18 @@
+<%- include('partials/header')%>
+  <!--  -->
+  <%- include('partials/nav')%>
+    <!--  -->
+    <div style="background-image: url(https://img.freepik.com/premium-photo/empty-fuchsia-solid-color-background_1192032-1754.jpg?w=900); background-position: center; background-repeat: no-repeat; background-size: cover;" class="w-[100%] h-full p-20 mt-10">
+      <form style="background-color: rgba(19, 12, 13, 0.171);" class=" rounded text-2xl m-auto w-2/5 h-1/2" action="/user/register" method="post">
+        <h1 class=" mb-10 py-3 text-center font-bold">Sign-In</h1>
+        <p class="text-center text-base mb-5">Register to Join the Glam Squad and earn 2000 glam points</p>
+        <input class="w-80 ml-20 mb-5 border p-3 rounded h-10" type="email" placeholder="example@email.com" name="email">
+        <input class="w-80 ml-20 mb-5 border p-3 rounded h-10" type="text" placeholder="username" name="username">
+        <input class=" mb-5 w-80 ml-20 border p-3 rounded h-10" type="password" placeholder="********" name="password">
+
+        <button class="mb-5 hover:bg-red-400 w-1/2 bg-red-300 px-5 py-1 text-white rounded  ml-20 h-10">Create Account</button>
+      <p class="ml-20 text-2xl mb-5">Already have an account ? <a class=" text-blue-400" href=" /login">Login</a></p>
+      </form>
+    </div>
+    <!--  -->
+    <%- include('partials/footer')%>

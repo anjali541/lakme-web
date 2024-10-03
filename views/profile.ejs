@@ -1,0 +1,11 @@
+<%- include('partials/header')%>
+  <!--  -->
+  <%- include('partials/nav')%>
+
+  <div class="w-[80%] mx-auto p-10">
+  <div class="w-[80%] mx-auto p-10 bg-zinc-700 rounded">
+    <h1 class="mb-10 text-white font-bold text-5*1">hello <%= user.username%></h1>
+    <a class="bg-red-300 px-5 py-2 text-white rounded" href="/user/logout">user logout</a>
+  </div>
+
+  <%- include('partials/footer')%>

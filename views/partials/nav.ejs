@@ -1,0 +1,28 @@
+<nav  class="flex h-20 text-white">
+
+    <div class=""> 
+        <img class="w-56 h-32" src="https://img.freepik.com/premium-vector/natural-skin-care-abstract-logo-design_278222-1149.jpg?size=626&ext=jpg&ga=GA1.1.1761302250.1705152669&semt=ais_hybrid" alt="">
+        </div>
+
+        <div class="text-decoration-none flex mt-7 text-black"> 
+        <% if(user) { %>
+
+            <a href="/">Home</a>
+        
+      <% }else{ %>
+        <a class="ml-10" href="/">Home</a>
+     <% }  %>
+     
+        <a class="text-decoration-none ml-10 hover:scale-x transform transition duration-y" href="/">index</a>
+    
+        <a  class="ml-10" href="/categories">Catrgories
+        </a>
+        <a class="ml-10" href="/blog">Blog</a>
+        <a class="ml-10"  href="/product">Product</a>
+        <input class="ml-40 px-10 rounded h-10 w-56 bg-pink-200"  type="text" placeholder="Search here product">
+        <a class="ml-10" href="/profile"><i class="ri-user-3-line"></i></a>
+        <a class="ml-20" href="/login">login in </i></a>
+        <a class="ml-10"  href="/register">register</a>
+        
+    </div>
+</nav>
